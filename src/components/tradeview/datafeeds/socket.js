@@ -1,5 +1,6 @@
 class socket {
-  constructor(url = 'wss://api.fcoin.com/v2/ws', options) {
+  // wss://api.fcoin.com/v2/ws
+  constructor(url = 'wss://ws.xt.com/websocket', options) {
     this.heartBeatTimer = null
     this.options = options
     this.messageMap = {}
@@ -58,7 +59,7 @@ class socket {
       'cmd': 'ping',
       'args': [Date.parse(new Date())]
     }
-    this.send(data)
+    // this.send(data)
   }
   onError(err) {
 

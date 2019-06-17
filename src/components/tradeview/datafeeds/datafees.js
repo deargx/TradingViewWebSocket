@@ -107,9 +107,9 @@ class datafeeds {
       'has_intraday': true,
       'has_no_volume': false,
       'description': 'BTCUSDT',
-      'pricescale': 1,
+      'pricescale': 10000,
       'ticker': 'BTCUSDT',
-      'supported_resolutions': ['1', '5', '15', '30', '60', '1D', '2D', '3D', '1W', '1M']
+      'supported_resolutions': ['1', '5', '15', '30', '60', '1D', '1W']
     }
   }
 }
